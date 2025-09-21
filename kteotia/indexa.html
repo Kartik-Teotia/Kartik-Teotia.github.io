@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Personal Homepage (MPI-INF)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal Homepage (MPI-INF)">
+<meta name="author" content="Researcher at MPI-INF">
+<!-- CSS imports -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" >
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/mpi-inf.css">
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- JavaScript imports -->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<!-- script type="text/javascript">var jq$ = jQuery.noConflict();</script -->
+</head>
+<body>
+<div class="container">
+  <!--#include virtual="/i/header.inc" -->
+  <div class="row clearfix">
+    <div class="col-md-12"> 
+      <!--#include virtual="/i/menutop.inc" -->
+      <div id="mpiideco">
+        <div class="col-md-2 col-xs-2">
+          <div id="department_symbol"><i class="fa fa-user"></i></div>
+        </div>
+        <div class="col-md-10 col-xs-10">
+          <div id="department_name">Homepage</div>
+        </div>
+      </div>
+      <!-- the breakcrump for better orientation within the navigational tree -->
+      <div id="mpiibreadcrumb">
+        <ul class="breadcrumb">
+          <li><a href="//www.mpi-inf.mpg.de/">Home</a></li>
+          <li><a href="//www.mpi-inf.mpg.de/people/">People</a></li>
+          <li>Personal Homepage</li>
+        </ul>
+      </div>
+      <div id="mpiibody" class="col-md-12">
+        <div class="col-md-12" style="height:20px"></div>
+        <!-- Sidebar major content column on the right side of the navigation --> 
+        <!-- sidebar column navigation on the left -->
+        <div id="mpiinavleft" class="col-md-3 column">
+          <ul class="nav nav-stacked">
+            <!--#include virtual="menu.inc" -->
+          </ul>
+        </div>
+        
+        <!-- Sidebar major content column on the right side of the navigation -->
+        
+        <div id="mpiicontent" class="col-md-9 column">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Contact</h3>
+            </div>
+            <div class="panel-body">
+              <!--#include virtual="personal.inc" -->
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="research">Research Interests</h3>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>Item 1 of your list of research interests </li>
+                <li>Item 2 of your list of research interests ...</li>
+                <li>Item 3 of your list of research interests ...</li>
+                <li>...</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="publications">Publications</h3>
+            </div>
+            <div class="panel-body"> 
+              <!-- CORRECT HERE: --> 
+              <!-- Examples on how to retrieve a list of your publications dynamically from the corresponding publication database. --> 
+              <!-- Put your name and the correct department in old style -->
+              <p><a href="http://pubman.mpdl.mpg.de/cone/persons/resource/persons45021">Publications of Prof. Dr. Kurt Mehlhorn</a></p>
+              <p><a href="http://pubman.mpdl.mpg.de/cone/persons/resource/persons45383">Publications of Prof. Dr. Bernt Schiele</a></p>
+		      <p><a href="http://pubman.mpdl.mpg.de/cone/persons/resource/persons211491">Publications of Prof. Dr. Anja Feldmann</a></p>	
+              <p><a href="http://pubman.mpdl.mpg.de/cone/persons/resource/persons44907">Publications of Prof. Dr. Dr. Thomas Lengauer</a></p>
+              <p><a href="http://pubman.mpdl.mpg.de/cone/persons/resource/persons45449">Publications of Prof. Dr. Hans-Peter Seidel</a></p>
+              <p><a href="http://pubman.mpdl.mpg.de/cone/persons/resource/persons45720">Publications of Prof. Dr. Gerhard Weikum</a></p>
+              <ul>
+                <li>Lastname, F.: The Title and the rest of the nice bibliography data you can and want to give your homepage readers here. Include download links if 
+                  you have the permission to do so.</li>
+                <li>Lastname, F.: Example 2</li>
+                <li>Lastname, F.: Example 3</li>
+                <li>...</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="teaching">Teaching</h3>
+            </div>
+            <div class="panel-body">
+              <p>List of courses / current teaching activities</p>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="positions">Recent Positions</h3>
+            </div>
+            <div class="panel-body">
+              <p>List of recent positions</p>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="education">Education</h3>
+            </div>
+            <div class="panel-body"> 
+              <!-- put the most recent entries on top of your list -->
+              <ul>
+                <li> January 200N - present:<br />
+                  Ph. D. student in <a href="http://www.cs.uni-saarland.de">Computer Science</a> at the <a href="http://www.uni-saarland.de">Universit&auml;t
+                  des Saarlandes, Saarbr&uuml;cken</a>, Germany and the <a href="http://www.mpi-inf.mpg.de">Max-Planck-Institut f&uuml;r Informatik</a><br />
+                  <br />
+                </li>
+                <li> Month 199N - Month 200N:<br />
+                  Studies in Computer Science at the University of <br />
+                  Title of Master's Thesis (Diplomarbeit): Some Title (supervisor: Prof. Dr. X Y) (<a href="download/diplom.pdf">PDF</a>, <a href="download/diplom.ps.gz">PS</a>)</li>
+                <li> Month 199N:<br />
+                  Abitur at the Gymnasium, X Y</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="links">Links</h3>
+            </div>
+            <div class="panel-body">
+              <p>This could be a list of links</p>
+              <ul>
+                <li>to people you are working with...</li>
+                <li>to the project(s) you are working on...</li>
+                <li>...</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="private">Private</h3>
+            </div>
+            <div class="panel-body">
+              <h4>Hobbies</h4>
+              <ul>
+                <li>...</li>
+                <li>...</li>
+                <li>...</li>
+                <li>...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#include virtual="footer.inc" -->
+    </div>
+  </div>
+</div>
+</body>
+</html>
