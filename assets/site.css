@@ -14,12 +14,16 @@ html, body {
 }
 
 /* Hide MPI chrome */
+.row:first-child,
 #mpiitoplinks,
 #mpiimainmenu,
 #mpiideco,
 #mpiibreadcrumb,
 .navbar,
-img[alt="MPI-INF Logo"] {
+.navbar-default,
+nav[role="navigation"],
+img[alt="MPI-INF Logo"],
+.col-md-6:has(img[alt="MPI-INF Logo"]) {
   display: none !important;
 }
 
