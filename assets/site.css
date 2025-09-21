@@ -152,9 +152,14 @@ section p {
 }
 
 .venue {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
   margin-bottom: 8px;
-  color: #666;
+  color: #d73027;
+  background: #fef5f5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .description {
