@@ -91,6 +91,21 @@ section p {
   margin-bottom: 20px;
 }
 
+/* Paper links in research section */
+.paper-link {
+  color: #1a73e8 !important;
+  text-decoration: none;
+}
+
+.paper-link:hover {
+  text-decoration: underline;
+}
+
+.paper-link strong {
+  font-weight: 700;
+  color: inherit;
+}
+
 /* Publications */
 .publication {
   display: flex;
