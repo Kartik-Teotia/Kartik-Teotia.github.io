@@ -54,10 +54,10 @@ body {
 
 .intro-photo img {
   width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  height: 240px;
+  border-radius: 8px;
   object-fit: cover;
-  border: 3px solid #e0e0e0;
+  border: 1px solid #e0e0e0;
 }
 
 .links {
@@ -223,7 +223,7 @@ footer a:hover {
   
   .intro-photo img {
     width: 150px;
-    height: 150px;
+    height: 180px;
   }
   
   .publication {
